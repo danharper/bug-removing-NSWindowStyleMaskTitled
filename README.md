@@ -6,7 +6,7 @@ Similarly, make the window larger than it was, and clicking in the new space act
 
 Video (fb-only): https://www.internalfb.com/intern/px/p/1GMWJ
 
-```
+```objc
 - (void)onButtonClick:(id)sender {
   self.view.window.styleMask &= ~NSWindowStyleMaskTitled;
 }
