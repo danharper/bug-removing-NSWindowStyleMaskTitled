@@ -22,5 +22,8 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction)onButtonClick:(id)sender {
+    self.view.window.styleMask &= ~NSWindowStyleMaskTitled;
+}
 
 @end
